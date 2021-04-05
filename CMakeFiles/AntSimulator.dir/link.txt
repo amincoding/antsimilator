@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/AntSimulator.dir/src/config.cpp.o CMakeFiles/AntSimulator.dir/src/display_manager.cpp.o CMakeFiles/AntSimulator.dir/src/main.cpp.o CMakeFiles/AntSimulator.dir/src/utils.cpp.o -o AntSimulator  /usr/lib/libsfml-graphics.so.2.5.1 -lpthread /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 

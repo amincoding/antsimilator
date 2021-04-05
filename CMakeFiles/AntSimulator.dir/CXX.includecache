@@ -1,0 +1,120 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ant.hpp
+list
+-
+marker.hpp
+../include/marker.hpp
+food.hpp
+../include/food.hpp
+world.hpp
+../include/world.hpp
+config.hpp
+../include/config.hpp
+iostream
+-
+direction.hpp
+../include/direction.hpp
+
+../include/colony.hpp
+SFML/Graphics.hpp
+-
+vector
+-
+list
+-
+ant.hpp
+../include/ant.hpp
+utils.hpp
+../include/utils.hpp
+world.hpp
+../include/world.hpp
+
+../include/config.hpp
+memory
+-
+SFML/Graphics.hpp
+-
+
+../include/direction.hpp
+SFML/System.hpp
+-
+utils.hpp
+../include/utils.hpp
+
+../include/display_manager.hpp
+SFML/Graphics.hpp
+-
+world.hpp
+../include/world.hpp
+colony.hpp
+../include/colony.hpp
+
+../include/food.hpp
+SFML/Graphics.hpp
+-
+config.hpp
+../include/config.hpp
+
+../include/marker.hpp
+config.hpp
+../include/config.hpp
+iostream
+-
+
+../include/utils.hpp
+SFML/Graphics.hpp
+-
+cmath
+-
+
+../include/world.hpp
+list
+-
+vector
+-
+SFML/System.hpp
+-
+marker.hpp
+../include/marker.hpp
+food.hpp
+../include/food.hpp
+utils.hpp
+../include/utils.hpp
+
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/config.cpp
+config.hpp
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/config.hpp
+
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/display_manager.cpp
+display_manager.hpp
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/display_manager.hpp
+
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/main.cpp
+SFML/Graphics.hpp
+-
+vector
+-
+list
+-
+fstream
+-
+colony.hpp
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/colony.hpp
+config.hpp
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/config.hpp
+display_manager.hpp
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/display_manager.hpp
+
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/utils.cpp
+utils.hpp
+/home/amin/Downloads/AntSimulator-master (1)/AntSimulator-master/src/utils.hpp
+random
+-
+
